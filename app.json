@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Sdata-AI",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/large_logo_sdata_light.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/large_logo_sdata_light.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/large_logo_sdata_light.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.spdmohammadreza.frontend"
+    },
+    "web": {
+      "favicon": "./assets/large_logo_sdata_light.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb0fb5b7-c91b-4d6f-88a2-8ec5c3eefdd2"
+      }
+    }
+  }
+}
