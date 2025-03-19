@@ -35,6 +35,7 @@ const AuthNavigator = () => {
         headerTintColor: '#fff',
         headerTitleStyle: {
           fontWeight: 'bold',
+          fontFamily: 'KalamehFaNum-Bold',
         },
       }}
     >
@@ -64,6 +65,7 @@ const MainNavigator = () => {
         headerTintColor: '#fff',
         headerTitleStyle: {
           fontWeight: 'bold',
+          fontFamily: 'KalamehFaNum-Bold',
         },
         drawerPosition: 'right',
         headerTitle: () => (
@@ -90,7 +92,6 @@ const AppNavigator = () => {
   const { user, guestId, isLoading } = useAuth();
   
   if (isLoading) {
-    // You could return a loading screen here
     return null;
   }
   

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Sdata-AI",
-    "slug": "frontend",
+    "name": "Sdata AI Chat",
+    "slug": "sdata-ai-chat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/large_logo_sdata_light.png",
@@ -12,6 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +23,7 @@
         "foregroundImage": "./assets/large_logo_sdata_light.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.spdmohammadreza.frontend"
+      "package": "com.sdata.aichat"
     },
     "web": {
       "favicon": "./assets/large_logo_sdata_light.png"
@@ -28,6 +31,14 @@
     "extra": {
       "eas": {
         "projectId": "bb0fb5b7-c91b-4d6f-88a2-8ec5c3eefdd2"
+      }
+    },
+    "fonts": {
+      "KalamehFaNum": {
+        "regular": "./assets/fonts/TTF/KalamehFaNum-Regular.ttf",
+        "bold": "./assets/fonts/TTF/KalamehFaNum-Bold.ttf",
+        "thin": "./assets/fonts/TTF/KalamehFaNum-Thin.ttf",
+        "black": "./assets/fonts/TTF/KalamehFaNum-Black.ttf"
       }
     }
   }
