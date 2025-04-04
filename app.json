@@ -1,14 +1,14 @@
 {
   "expo": {
     "name": "Sdata AI Chat",
-    "slug": "sdata-ai-chat",
+    "slug": "frontend",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/large_logo_sdata_light.png",
+    "icon": "./assets/Frame 2.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/large_logo_sdata_light.png",
+      "image": "./assets/Frame 2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +20,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/large_logo_sdata_light.png",
+        "foregroundImage": "./assets/Frame 2.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.sdata.aichat"
     },
     "web": {
-      "favicon": "./assets/large_logo_sdata_light.png"
+      "favicon": "./assets/Frame 2.png"
     },
     "extra": {
       "eas": {
